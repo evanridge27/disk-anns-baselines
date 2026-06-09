@@ -1,0 +1,225 @@
+# ========================
+# C++ Compiled Objects
+# ========================
+*.o
+*.obj
+*.ko
+*.elf
+*.so
+*.so.*
+*.dylib
+*.dll
+*.a
+*.lib
+*.la
+*.lo
+*.d
+
+# ========================
+# Executables
+# ========================
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# ========================
+# Precompiled Headers
+# ========================
+*.gch
+*.pch
+
+# ========================
+# Build Directories
+# ========================
+build/
+build_asan/
+cmake-build-*/
+out/
+bin/
+lib/
+PipeANN-0.1.0/
+
+# ========================
+# CMake Generated
+# ========================
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# ========================
+# Make Generated
+# ========================
+*.d
+.depend
+
+# ========================
+# IDE / Editor Files
+# ========================
+
+# Visual Studio
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# CLion / IntelliJ
+.idea/
+*.iml
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData/
+
+# Eclipse
+.cproject
+.project
+.settings/
+
+# Qt Creator
+*.pro.user
+*.pro.user.*
+CMakeLists.txt.user
+
+# ========================
+# OS Generated Files
+# ========================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ========================
+# Temporary / Backup Files
+# ========================
+*.swp
+*.swo
+*.swn
+*~
+*.bak
+*.tmp
+*.temp
+*.log
+*.cache
+
+# ========================
+# Archives / Packages
+# ========================
+*.zip
+*.tar
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.rar
+*.7z
+*.deb
+*.rpm
+*.pkg
+
+# ========================
+# Debug / Profiling
+# ========================
+*.dSYM/
+*.su
+*.idb
+*.pdb
+core
+vgcore.*
+gmon.out
+perf.data
+perf.data.old
+callgrind.out.*
+cachegrind.out.*
+massif.out.*
+
+# ========================
+# Coverage / Test Output
+# ========================
+*.gcno
+*.gcda
+*.gcov
+*.lcov
+coverage/
+Testing/
+CTestTestfile.cmake
+
+# ========================
+# Documentation Build
+# ========================
+docs/_build/
+docs/html/
+docs/latex/
+doxygen_output/
+
+# ========================
+# Dependency Directories
+# ========================
+node_modules/
+vendor/
+third_party/build/
+vcpkg_installed/
+conan/
+
+# ========================
+# Miscellaneous
+# ========================
+*.orig
+*.rej
+*.patch
+tags
+TAGS
+GPATH
+GRTAGS
+GSYMS
+GTAGS
+
+# ========================
+# AI Assistant Files
+# ========================
+.codebuddy/
+.claude/
+.codex/
+.opencode/
+.aider*
+.copilot/
+.cursor/
+.windsurf/
+.devai/
+.tabby/
+.sourcegraph/
+.augment/
+
+school/
